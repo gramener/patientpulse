@@ -1,0 +1,72 @@
+{
+  "demos": [
+    {
+      "title": "Lisa is on Metformin",
+      "audio": "audio/lisa-is-on-metformin.opus",
+      "prosody": "audio/lisa-is-on-metformin.prosody.csv",
+      "body": "A patient shares concerns about stomach discomfort possibly linked to metformin or a recently added probiotic, seeking guidance on managing symptoms."
+    },
+    {
+      "title": "Gardener has BP",
+      "audio": "audio/gardener-has-bp.opus",
+      "prosody": "audio/gardener-has-bp.prosody.csv",
+      "body": "A patient discusses feeling unusually tired and dizzy, possibly due to a new blood pressure medication, especially during outdoor activities like gardening."
+    },
+    {
+      "title": "Tommy's Mum has Arthritis",
+      "audio": "audio/tommys-mum-has-arthritis.opus",
+      "prosody": "audio/tommys-mum-has-arthritis.prosody.csv",
+      "body": "A concerned son reports unusual ankle swelling in his mother after starting a new arthritis prescription, seeking advice on potential interactions with her heart medication."
+    }
+  ],
+  "emotions": [
+    "Horror",
+    "Fear",
+    "Anxiety",
+    "Apprehension",
+    "Distress",
+    "Pain",
+    "Empathic Pain",
+    "Grief",
+    "Sadness",
+    "Guilt",
+    "Shame",
+    "Embarrassment",
+    "Confusion",
+    "Doubt",
+    "Disappointment",
+    "Disapproval",
+    "Contempt",
+    "Disgust",
+    "Anger",
+    "Annoyance",
+    "Sarcasm",
+    "Envy",
+    "Craving",
+    "Desire",
+    "Determination",
+    "Enthusiasm",
+    "Excitement",
+    "Ecstasy",
+    "Triumph",
+    "Pride",
+    "Satisfaction",
+    "Relief",
+    "Calmness",
+    "Contentment",
+    "Nostalgia",
+    "Sympathy",
+    "Realization",
+    "Contemplation",
+    "Interest",
+    "Aesthetic Appreciation",
+    "Awe",
+    "Surprise (negative)",
+    "Surprise (positive)",
+    "Amusement",
+    "Adoration",
+    "Admiration",
+    "Love",
+    "Gratitude"
+  ]
+}
