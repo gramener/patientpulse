@@ -54,14 +54,16 @@ flowchart TD
 ### Local Setup
 
 1. Clone this repository:
+
 ```bash
 git clone https://github.com/gramener/patientpulse.git
 cd patientpulse
 ```
 
-2. Serve the files using any static web server:
+2. Serve the files using the static auth server:
+
 ```bash
-python -m http.server
+uvx https://raw.githubusercontent.com/sanand0/staticauth/main/app.py
 ```
 
 3. Open `http://localhost:8000` in your browser
@@ -73,6 +75,7 @@ python -m http.server
 3. Extract and rename prosody CSV file
 4. Compress audio to OPUS format
 5. Add entry to `config.json`:
+
 ```json
 {
   "title": "Recording Title",

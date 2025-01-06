@@ -114,7 +114,7 @@ $demos.addEventListener("click", async (e) => {
       </div>
       <div class="col-md transcript"></div>
       <div class="col-md wheel position-relative">
-        <svg class="position-absolute top-0 start-0 img-fluid" viewBox="0 0 1080 1080">
+        <svg class="position-absolute top-0 start-0 img-fluid" viewBox="0 0 1080 1080" fill="currentColor">
           <g class="slices" transform="translate(540, 540)"></g>
           <g class="labels" transform="translate(540, 540)"></g>
         </svg>
