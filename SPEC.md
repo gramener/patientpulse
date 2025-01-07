@@ -25,8 +25,8 @@ You are a clinical trial expert. Read this call transcript. Identify all drugs, 
   "drugs": [
     { "name": "...", "lines": [6] } // first drug is mentioned in line 6
   ],
-  "emotions": [
-    { "name": "...", "lines": [9] } // first emotion is mentioned in line 9
+  "diseases": [
+    { "name": "...", "lines": [9] } // first disease is mentioned in line 9
   ]
 }
 ```
@@ -82,78 +82,56 @@ Then add an entry to `config.json` with a title, audio and prosody keys, like th
 }
 ```
 
-The emotions are mapped into the 8 basic emotions on Robert Plutchik's theory of emotions by mapping and adding the emotions as follows:
+The emotions are mapped into a spectrum of emotions along this scale, and then rendered on a circular bar chart.
 
-```json
-{
-  "Admiration": "Joy",
-  "Adoration": "Joy",
-  "Aesthetic Appreciation": "Joy",
-  "Amusement": "Joy",
-  "Calmness": "Joy",
-  "Contentment": "Joy",
-  "Ecstasy": "Joy",
-  "Enthusiasm": "Joy",
-  "Excitement": "Joy",
-  "Gratitude": "Joy",
-  "Love": "Joy",
-  "Pride": "Joy",
-  "Realization": "Joy",
-  "Relief": "Joy",
-  "Satisfaction": "Joy",
-  "Surprise (positive)": "Joy",
-  "Triumph": "Joy",
-  "Admiration": "Trust",
-  "Adoration": "Trust",
-  "Contentment": "Trust",
-  "Gratitude": "Trust",
-  "Love": "Trust",
-  "Pride": "Trust",
-  "Sympathy": "Trust",
-  "Anxiety": "Fear",
-  "Apprehension": "Fear",
-  "Doubt": "Fear",
-  "Embarrassment": "Fear",
-  "Fear": "Fear",
-  "Guilt": "Fear",
-  "Horror": "Fear",
-  "Shame": "Fear",
-  "Surprise (negative)": "Fear",
-  "Awe": "Surprise",
-  "Confusion": "Surprise",
-  "Horror": "Surprise",
-  "Realization": "Surprise",
-  "Surprise (negative)": "Surprise",
-  "Surprise (positive)": "Surprise",
-  "Contemplation": "Sadness",
-  "Disappointment": "Sadness",
-  "Distress": "Sadness",
-  "Empathic Pain": "Sadness",
-  "Envy": "Sadness",
-  "Grief": "Sadness",
-  "Nostalgia": "Sadness",
-  "Pain": "Sadness",
-  "Sadness": "Sadness",
-  "Contempt": "Disgust",
-  "Disapproval": "Disgust",
-  "Disgust": "Disgust",
-  "Embarrassment": "Disgust",
-  "Shame": "Disgust",
-  "Sarcasm": "Disgust",
-  "Annoyance": "Anger",
-  "Anger": "Anger",
-  "Contempt": "Anger",
-  "Determination": "Anger",
-  "Envy": "Anger",
-  "Sarcasm": "Anger",
-  "Craving": "Anticipation",
-  "Desire": "Anticipation",
-  "Determination": "Anticipation",
-  "Enthusiasm": "Anticipation",
-  "Excitement": "Anticipation",
-  "Interest": "Anticipation"
-}
-```
+- Horror
+- Fear
+- Anxiety
+- Apprehension
+- Distress
+- Pain
+- Empathic Pain
+- Grief
+- Sadness
+- Guilt
+- Shame
+- Embarrassment
+- Confusion
+- Doubt
+- Disappointment
+- Disapproval
+- Contempt
+- Disgust
+- Anger
+- Annoyance
+- Sarcasm
+- Envy
+- Craving
+- Desire
+- Determination
+- Enthusiasm
+- Excitement
+- Ecstasy
+- Triumph
+- Pride
+- Satisfaction
+- Relief
+- Calmness
+- Contentment
+- Nostalgia
+- Sympathy
+- Realization
+- Contemplation
+- Interest
+- Aesthetic Appreciation
+- Awe
+- Surprise (negative)
+- Surprise (positive)
+- Amusement
+- Adoration
+- Admiration
+- Love
+- Gratitude
 
 # Gramener Demos
 
