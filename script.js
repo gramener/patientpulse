@@ -104,8 +104,15 @@ $demos.addEventListener("click", async (e) => {
   }
 
   // Render the UI
+  const transcript = prosody.map(({ Text }) => Text).join(" ");
+  const adverseEventsURL = "https://adverseevents.straive.app/?" + new URLSearchParams({ q: transcript });
   $app.innerHTML = /* html */ `
-    <audio src="${$demo.href}" controls class="w-100" autoplay></audio>
+    <div class="d-flex align-items-center">
+      <audio src="${$demo.href}" controls class="w-100" autoplay></audio>
+      <a class="btn btn-primary text-nowrap ms-3" target="_blank" href="${adverseEventsURL}">
+        Check <span class="d-none d-md-inline">adverse events</span>
+      </a>
+    </div>
     <div class="row my-3">
       <div class="col-md extracts">
         <div class="list-group drugs mb-3"></div>
